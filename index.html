@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/clouds.png" type="png/img/gif">
+</head>
+
+<body>
+    <div class="weatherapp">
+        <div class="weather" id="weather">
+            <form onsubmit="CheckWeather()" id="formitems">
+                <input type="text" placeholder="Search by city" spellcheck="false" id="searchbox" required>
+                <img src="images/search.png" id="searchicon" onclick="CheckWeather()" alt="error" required>
+            </form>
+            <h4 id="citydes"></h4>
+            <div class="maincontent">
+                <div id="div1">
+                    <img src="images/clear.png" alt="error loading image">
+                </div>
+                <div id="div2">
+                    <h1 id="temperature"></h1>
+                </div>
+                <div id="div3">
+                    <h5 id="unit">°C</h5>
+                </div>
+            </div>
+            <div>
+                <h1 id="currentclimate"></h1>
+            </div>
+            <div>
+                <h3 id="datetime"></h3>
+            </div>
+            <hr>
+            <div class="subcontent">
+                <div>
+                    <img src="images/clouds.png" id="img1" alt="error">
+                    <h3>Climate</h3>
+                    <h1 id="h11"></h1>
+                </div>
+                <div>
+                    <img src="images/drizzle.png" id="img2" alt="error">
+                    <h3>Precipitation</h3>
+                    <h1 id="h12"></h1>
+                </div>
+                <div>
+                    <img src="images/humidity.png" alt="error">
+                    <h3 id="imgh33">Humidity</h3>
+                    <h1 id="h13"></h1>
+                </div>
+                <div>
+                    <img src="images/wind.png" alt="error">
+                    <h3 id="imgh34">Wind(mph)</h3>
+                    <h1 id="h14"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
