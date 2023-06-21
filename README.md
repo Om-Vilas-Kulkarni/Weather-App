@@ -37,6 +37,6 @@ A weather app made using 𝗛𝗧𝗠𝗟, 𝗖𝗦𝗦, 𝗙𝗲𝘁𝗰𝗵 �
 ![Untitled design (11)](https://github.com/Om-Vilas-Kulkarni/Weather-App/assets/114779868/a27c005c-fe77-44af-9578-f4fcda8f991c)
 
 
-## CopyRight ⓒ
+## Copyright ⓒ
 
 This project is created and owned by: @𝗢𝗺-𝗩𝗶𝗹𝗮𝘀-𝗞𝘂𝗹𝗸𝗮𝗿𝗻𝗶
