@@ -25,7 +25,8 @@ This project is created and owned by: @Om-Vilas-Kulkarni
 
 ## Rain
 
-![Untitled design (8) (1)](https://github.com/Om-Vilas-Kulkarni/Weather-App/assets/114779868/b483f979-e564-4ce4-b3b6-0afc32f04afd)
+![Untitled design (7)](https://github.com/Om-Vilas-Kulkarni/Weather-App/assets/114779868/79244f15-631a-4907-af57-fa7ffc50bbc4)
+
 
 
 
