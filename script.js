@@ -70,9 +70,6 @@ async function CheckWeather() {
         let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=8172fb42178e324f967eab8091b520bb&units=metric`);
         let data = await response.json();
         console.log(data);
-        if(data.cod=="404"){
-            alert("Please enter a valid city name.");
-        }
     
     document.getElementById('citydes').innerHTML = data.name + " City," + " " + data.sys.country;
     document.getElementById('temperature').innerHTML = Math.round(data.main.temp);
