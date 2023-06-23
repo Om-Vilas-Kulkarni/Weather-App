@@ -38,6 +38,13 @@ async function start() {
         document.getElementById('currentclimate').innerHTML = "Snowfall";
         document.getElementById('h12').innerHTML = "high";
     }
+    else if(w=="Mist"){
+        document.getElementById('div1').innerHTML=`<img src="images/mist.png" alt="error loading image">`;
+        document.body.style.backgroundImage=`linear-gradient(160deg,rgba(12,12,12,0.2),rgba(12,12,12,0.2)),url('images/misting.gif')`;
+        document.getElementById('currentclimate').innerHTML = "Mist";
+        document.getElementById('h12').innerHTML = "Normal";
+    }
+    
     let precision=Math.round(data.main.temp);
     if(precision<0){
         document.getElementById('div1').innerHTML=`<img src="images/snow.png" alt="error loading image">`;
@@ -99,6 +106,12 @@ async function CheckWeather() {
         document.body.style.backgroundImage=`linear-gradient(160deg,rgba(12,12,12,0.2),rgba(12,12,12,0.2)),url('images/snowing.gif')`;
         document.getElementById('currentclimate').innerHTML = "Snowfall";
         document.getElementById('h12').innerHTML = "High";
+    }
+    else if(w=="Mist"){
+        document.getElementById('div1').innerHTML=`<img src="images/mist.png" alt="error loading image">`;
+        document.body.style.backgroundImage=`linear-gradient(160deg,rgba(12,12,12,0.2),rgba(12,12,12,0.2)),url('images/misting.gif')`;
+        document.getElementById('currentclimate').innerHTML = "Mist";
+        document.getElementById('h12').innerHTML = "Normal";
     }
     
     document.getElementById('h11').innerHTML = data.weather[0].main;
