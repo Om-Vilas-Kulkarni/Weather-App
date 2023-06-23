@@ -24,6 +24,9 @@ A weather app made using 𝗛𝗧𝗠𝗟, 𝗖𝗦𝗦, 𝗙𝗲𝘁𝗰𝗵 �
 #### Hazy
 ![Untitled design (8)](https://github.com/Om-Vilas-Kulkarni/Weather-App/assets/114779868/90f56fd8-8bb8-4499-89c8-b3fdb5028267)
 
+#### Mist
+![Untitled design (13)](https://github.com/Om-Vilas-Kulkarni/Weather-App/assets/114779868/53c6ca4a-7b25-411f-bc74-031fee3d4cd2)
+
 #### Rain
 ![Untitled design (7)](https://github.com/Om-Vilas-Kulkarni/Weather-App/assets/114779868/764ba07d-b3d7-45f7-b227-0595f5b22bc8)
 
